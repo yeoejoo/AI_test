@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+지도맵(Folium) REST 통신<hr>
+
+<form id="form_ID">
+구검색:<input type="text" name="search_NAME"  id="search_ID">
+<input type="button" id="btn_ID" value="구검색">
+</form>
+<br><br>
+
+<div id="div_ID">
+    ajax 통신 후 결과 보여지는 부분
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script>
+$( document ).ready(function() {
+    $( "#btn_ID" ).on("click", function() {
+            input_data = $("#form_ID").serialize();
+            input_data = "search_NAME=" + $("#search_ID").val()
+            $.ajax({
+                url     : "/folium_rest",
+                method  : "post",
+                data    : input_data ,
+                success : function( res ) {
+                    $("#div_ID").empty()
+                    $("#div_ID").html(res)
+                } ,
+                error   : function(err_msg) { alert(err_msg); }
+            });
+    });
+} );
+
+</script>
+</body>
+</html>

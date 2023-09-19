@@ -1,0 +1,34 @@
+부동산 & 지수 관계
+
+서울시 주택종류별 주택 (동별) 통계
+https://data.seoul.go.kr/dataList/10585/S/2/datasetView.do
+
+공동주택 매매 실거래 가격지수
+https://www.reb.or.kr/r-one/cm/cntnts/cntntsView.do?mi=10116&cntntsId=1407
+기간:	2018.06	~	2023.06
+
+
+
+
+
+환경빅데이터플랫폼 : 지역별가구소득
+https://www.bigdata-environment.kr/user/data_market/detail.do?id=8cee0160-2dff-11ea-9713-eb3e5186fb38
+
+서울시 행정동별 소득수준 통계
+https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=2&sch_type=&sch_text=&currentPage=1
+
+
+주택매매 실거래가 자료
+http://www.data.go.kr, http://rt.molit.go.kr
+
+공동주택가격정보 서비스 
+http://www.data.go.kr, http://www.kab.co.kr
+
+주거실태조사 자료
+http://mdis.kostat.go.kr
+주택/주거환경, 이사경험, 이사계획, 주거의식, 주거지원프로그램 만족도, 가구현황, 가구소득, 자산
+
+
+
+
+

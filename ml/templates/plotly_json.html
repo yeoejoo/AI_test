@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="chart" id="graph_ID">
+        <script>
+        var v_json = {{MY_JSON | safe}}  //to_json으로 추출된 값
+        Plotly.plot('graph_ID', v_json, {});
+        </script>
+    </div>
+</body>
+</html>

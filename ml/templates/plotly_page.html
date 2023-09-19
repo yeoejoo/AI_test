@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+<body style="font-family:arial, sans-serif">
+    <h1>Plotly GEOJSON test</h1>
+    <input type="text" id="search_ID" name="search_NAME"><br><br>
+    <div id="chart" class="chart"></div>
+</body>
+
+<script>
+    res = {{ MY_PLOTLY_JSON | safe }};
+    //res.config={staticPlot: true};
+    Plotly.newPlot('chart', res, {staticPlot: true});
+    //Plotly.newPlot('chart', res, {staticPlot: true});
+</script>
+<hr>
+{{MY_PLOTLY_HTML|safe}}
+
+</html>
